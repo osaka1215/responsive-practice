@@ -1,0 +1,137 @@
+@charset "utf-8";
+
+.ptb-m{
+  padding: 80px 0;
+}
+.wrap{
+  width: 1080px;
+  margin: 0 auto;
+}
+.wrap-s{
+  width: 960px;
+  margin: 0 auto;
+}
+/*main*/
+#header{
+  height: 70px;
+  padding: 0 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header{
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.header-logo{
+  font-size: 24px;
+  color: #000;
+}
+.header-nav ul{
+  display: flex;
+}
+.header-nav ul li{
+  margin-right: 30px; 
+}
+.header-nav ul li a{
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.header-nav ul li a:hover{
+  color: dimgray;
+}
+
+/*main*/
+.main-visual{
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(../img/mv.png) center/cover ;
+}
+.main-title{
+  font-size: 30px;
+  color: #fff;
+  font-weight: bold;
+}
+
+/*recruit*/
+.recruit-wrap:not(:last-child){
+  margin-bottom: 8%;
+}
+.recruit-title{
+  font-size: 25px;
+  font-weight: bold;
+  padding-bottom: 1%;
+  border-bottom: 1.5px solid #000;
+}
+.recruit-text{
+  margin: 2% 0;
+}
+.recruit-list{
+  width: 100%;
+}
+.recruit-list-title{
+  border: 1px solid #000;
+  padding: 15px;
+  background-color: #F5F6F9;
+}
+.recruit-list-text{
+  border: 1px solid #000;
+  padding: 15px;
+}
+
+/*contact*/
+.top-contact{
+  background-color: #F5F6F9;
+  text-align: center;
+}
+.top-contact-title{
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 3%;
+}
+.top-contact-text{
+  font-size: 15px;
+  margin-bottom: 5%;
+}
+.top-contact-button{
+  color: #fff;
+  background-color: crimson;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 1% 10%;
+}
+
+
+/*FOOTER*/
+.footer{
+  height: 50px;
+  background-color: #222323;
+  color: #fff;
+}
+.footer-inner{
+  display: flex;
+  justify-content: space-between;
+  line-height: 50px;
+}
+.footer-nav ul{
+  display: flex;
+}
+.footer-nav ul li a{
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  color: inherit;
+  transition: 0.3s;
+}
+.footer-nav-item::after{
+  content: '|';
+  display: inline-block;
+  padding: 0 10px;
+}
