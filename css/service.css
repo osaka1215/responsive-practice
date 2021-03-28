@@ -243,6 +243,9 @@
   .service-wrap-wrap{
     line-height: 30px;
   }
+  .service-img{
+    width: 100%;
+  }
 
   /*contact*/
   .top-contact-button{
