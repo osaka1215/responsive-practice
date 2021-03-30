@@ -74,6 +74,9 @@
 .news-list-item:not(:first-child){
   margin-top: 10px;
 }
+.news-item-time{
+  margin-right: 10px;
+}
 
 /*contact*/
 .top-contact{
@@ -235,9 +238,6 @@
   .news-item-button{
     font-size: 14px;
     padding: 10px;
-  }
-  .news-item-time{
-    margin-right: 10px;
   }
   /*contact*/
   .top-contact-button{

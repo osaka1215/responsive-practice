@@ -78,6 +78,7 @@
   appearance: none;
 }
 .contact-textarea{
+  margin-top: 5px;
   font-size: 16px;
   height: 200px;
   width: 100%;
@@ -97,29 +98,6 @@
   appearance: none;
   cursor: pointer;
 }
-
-/*contact*/
-.top-contact{
-  background-color: #F5F6F9;
-  text-align: center;
-}
-.top-contact-title{
-  font-size: 30px;
-  font-weight: bold;
-  margin-bottom: 3%;
-}
-.top-contact-text{
-  font-size: 15px;
-  margin-bottom: 5%;
-}
-.top-contact-button{
-  color: #fff;
-  background-color: crimson;
-  text-decoration: none;
-  font-weight: bold;
-  padding: 1% 10%;
-}
-
 
 /*FOOTER*/
 .footer{
